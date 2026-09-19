@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.time.Duration;
 
 public class CalculatorPage {
-    private WindowsDriver driver;
+    private final WindowsDriver driver;
 
     // 1. Locate elements using @FindBy annotations
     @FindBy(name = "Plus")
@@ -21,6 +21,9 @@ public class CalculatorPage {
 
     @FindBy(name = "Equals")
     private WebElement equalsBtn;
+
+     @FindBy(id = "btn-multiply")
+    private WebElement multiplyButton;
 
     @FindBy(name = "Clear")
     private WebElement clearBtn;
@@ -57,6 +60,11 @@ public class CalculatorPage {
 
     public void clickClear() {
         clearBtn.click();
+    }
+
+    public void clickMultiply()
+    {
+        multiplyButton.click();
     }
 
     public String getResultText() {
