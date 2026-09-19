@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org">
+<!-- parallel="classes" runs different test classes at the same time -->
+<!-- thread-count="2" defines the maximum number of concurrent threads -->
+<suite name="Calculator Automation Suite" parallel="classes" thread-count="2">
+
+    <test name="WinAppDriver POM Tests">
+        <classes>
+            <!-- Add your test classes here -->
+            <class name="tests.CalculatorTest"/>
+            <!-- If you create more classes (e.g., ScientificCalcTest), they will run in parallel -->
+        </classes>
+    </test>
+
+</suite>
