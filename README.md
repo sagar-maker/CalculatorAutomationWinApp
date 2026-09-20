@@ -50,7 +50,7 @@ Run WinAppDriver with administrative privileges:
 ```
 
 
-3. Ensure it starts listening at default URL: `[http://127.0.0.1:4723/](http://127.0.0.1:4723/)`.
+3. Ensure it starts listening at default URL: `http://127.0.0.1:4723`.
 
 ---
 
@@ -78,7 +78,7 @@ dotnet test
 
 * **Desired Capabilities Setup**:
 * **App ID**: `Microsoft.WindowsCalculator_8wekyb3d8bbwe!App`
-* **WinAppDriver URL**: `[http://127.0.0.1:4723/](http://127.0.0.1:4723/)`
+* **WinAppDriver URL**: `http://127.0.0.1:4723`
 
 
 * **Inspecting UI Elements**:
