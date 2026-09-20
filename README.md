@@ -1,4 +1,4 @@
-Here is a tailored **`README.md`** template formatted specifically for a **Java + Appium / WinAppDriver + Page Object Model (POM)** desktop automation framework:
+ **Java + Appium / WinAppDriver + Page Object Model (POM)** desktop automation framework:
 
 ```markdown
 # Windows Desktop App Automation using Appium & Java (Page Object Model)
