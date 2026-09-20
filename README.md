@@ -79,8 +79,7 @@ mvn clean test
 
 ```text
 src/
-├── main/java/pages/
-│   ├── BasePage.java         # Common driver methods and element interactions
+├── main/java/Pages/
 │   └── CalculatorPage.java   # Page object defining Calculator UI elements and operational methods
 └── test/java/tests/
     ├── BaseTest.java         # Driver setup (DesiredCapabilities), teardown, and session lifecycle
